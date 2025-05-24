@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@85.2,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/* Common Styles */
+
+/* common css start */
+:root {
+    --w: #ffff;
+    --black: #333333;
+    --ash: #8e8e8e;
+    --lato: "lato", sans-serif;
+    --rob: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--lato);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 95px;
+    color: var(--black);
+}
+/* common css end */
+
+/* header start */
+header {
+      background-color: var(--w);
+    padding: 15px 0;
+    
+}
+.pe_icon{
+    font-size: 42px;
+    margin-bottom: -3px;
+    margin-top: -54px;
+    margin-left: 103px;
+}
+.c_nav{
+    padding: 10px 0;
+}
+.logo{
+    width: 100% !important;
+}
+.menu ul {
+      margin-top: 10px;
+    border: none;
+}
+.menu ul li a {
+    padding: 0 20px 0 !important;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--ash);
+
+}
+.menu ul li a:hover {
+  
+    color: var(--black);
+}
+/* header end */
+/* slider start  */
+.c_btn {
+    background-color: var(--w);
+    font-family: var(--rob);
+    color: var(--ash);
+}
+.s_text {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: var(--w);
+    font-weight: 700;
+    text-align: start;
+
+}
+.s_text h2 {
+    font-family: var(--lato);
+    margin-bottom: 26px;
+    font-size: 56px;
+}
+.s_text p{
+    font-size: 16px;
+    margin-right: 446px;
+    margin-bottom: 68px;
+    line-height: 25px;
+    font-weight: 300;
+    font-family: var(--rob);
+    }
+
+.s_text a {
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+.s_text a i {
+    padding-left: 15px;
+}
+.s_bdt{
+    border: none;
+    background-color:var(--w);
+    margin-left: 15%;
+    color: var(--ash);
+}
+.s_bdt:hover {
+    background-color: var(--w) !important;
+    color: var(--black) !important;
+}
+.s_bdtn{
+    border: none;
+    background-color:var(--w);
+    color: var(--ash);
+}
+.s_bdtn:hover {
+    background-color: var(--w) !important;
+    color: var(--black) !important;
+}
+/* slider end  */
+/* wealcome to nipro start  */
+.wc_s {
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.wc_s h2 {
+    margin-bottom: 30px;
+}
+.h3{
+    font-size: 50px;
+}
+.wc_s p{
+    font-size: 19px;
+}
+/* wc_box start */
+.wc_box{
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    color: var(--ash);
+}
+.wc_box i {
+
+}
+.wc_box h2{
+    border-bottom: 1px var(--ash);
+}
+.wc_box h2:hover{
+
+}
+.wc_box p {
+
+}
+.wc_box a {
+
+}
+
+/* wc_box end */
+
+/* wealcome to nipro end */
+/* resent work start  */
+.rc_w {
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 120px;
+    background-color: #f8f8f8;
+
+}
+.rc_w h2 {
+    margin-bottom: 30px;
+}
+.h3{
+    font-size: 50px;
+}
+.rcw_i {
+   text-decoration: none;
+
+    
+
+}
+.rcw_i ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid var(--black) !important;
+    background-color: var(--w);
+    color: var(--ash);
+
+
+}
+
+/* resent work end */
